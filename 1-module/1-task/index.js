@@ -1,7 +1,7 @@
-let str = 'петя';
-
-function ucFirst(str) {
-   return str[0].toUpperCase() + str.slice(1);  
+function factorial(n) {
+   let result = 1;
+   for(let i = n; i >= 1; i--){
+       result *= i;
+   }
+   return result;
 }
-
-alert(ucFirst(str));
