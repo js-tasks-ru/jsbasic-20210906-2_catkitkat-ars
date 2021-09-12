@@ -1,8 +1,7 @@
-function truncate(str, maxlength) {
-  maxlength = str.length;
-    if (maxlength > 20) {
-        return str.slice(0, 19) + '...';
-    } else {
-        return str;
-    }
+let str = 'петя';
+
+function ucFirst(str) {
+   return str[0].toUpperCase() + str.slice(1);  
 }
+
+alert(ucFirst(str));
