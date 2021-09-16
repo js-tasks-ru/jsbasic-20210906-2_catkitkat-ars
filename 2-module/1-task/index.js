@@ -3,8 +3,6 @@ function sumSalary(salaries) {
   for (let key in salaries){
     if (typeof salaries[key] == 'number' && isFinite(salaries[key])) {
       sum += salaries[key];
-    } else {
-      continue;
     }
   } return sum;
 }
